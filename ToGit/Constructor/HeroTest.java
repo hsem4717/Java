@@ -10,7 +10,7 @@ Hero(String n, int p, int s){
 	speed = s;
 }
 String toStr() {
-	return String.format("Hero name: %s, power: %d, speed: %d", name, power, speed);
+	return String.format("Hero name : %s, power: %d, speed: %d", name, power, speed);
 }
 }
 
